@@ -82,6 +82,7 @@ input{
     text-align: right;
     padding: .5rem;
     font-size: .8rem;
+    font-weight: 400;
     font-style: italic;
     color: hsl(0, 100%, 74%);
 }
