@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Intro component with sign up form</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- main section -->
+  <main>
+    <!-- first container -->
+    <div class="left-text-area">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+      but understanding how developers think is invaluable. </p>
+    </div>
+
+    <!-- second container -->
+    <div class="form-container">
+      <div class="try-it">
+        <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+      </div>
+
+      <!-- html form -->
+
+      <form action="">
+        <!-- first Name -->
+        <input type="text" id="first-name" placeholder="First Name">
+        <!-- error icon -->
+        <img src="images/icon-error.svg" alt="icon-error" class="error1 error">
+        <p class="first-name-error text-error"></p>
+        <!-- last Name -->
+        <input type="text" id="last-name" placeholder=" Last Name">
+        <!-- error icon -->
+        <img src="images/icon-error.svg" alt="icon-error" class="error2 error">
+        <p class="last-name-error text-error"></p>
+        <!-- email address -->
+        <input type="email" id="email" placeholder=" Email Address">
+        <!-- error icon -->
+        <img src="images/icon-error.svg" alt="icon-error" class="error3 error">
+        <p class="email-error text-error"></p>
+        
+        <!-- password -->
+        <input type="password" id="password" placeholder="Password">
+        <!-- error icon -->
+        <img src="images/icon-error.svg" alt="icon-error" class="error4 error">
+        <p class="password-error text-error"></p>
+        <!-- button -->
+        <button type="submit" id="submitBtn">CLAIM YOUR FREE TRIAL </button>
+
+        <p class="terms"> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+
+      </form>
+    </div>
+  </main>
+  
+
+  
+  <!-- footer section -->
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+      Coded by <a href="https://www.frontendmentor.io/profile/covstar" target="_blank">Okechukwu Victor.</a>
+    </p>
+  </footer>
+
+
+  <!-- javascript section -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

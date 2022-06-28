@@ -1,0 +1,141 @@
+/* dektop media view */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Poppins";
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("../images/bg-intro-desktop.png");
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 8rem 9rem 3rem;
+    column-gap: 5rem;
+}
+
+/* left textarea */
+.left-text-area{
+    padding: 10rem 0;
+}
+.left-text-area h1, .left-text-area p{
+    color: white;;
+}
+.left-text-area h1{
+    font-size: 3.1rem;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+}
+
+/* second container */
+.form-container{
+    width: 100%;
+}
+.try-it{
+    background-color: hsl(248, 32%, 49%);
+    padding: 1rem 0rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 7px hsla(249, 10%, 26%, 0.412) ;
+    margin-bottom: 1.5rem;
+}
+.try-it p{
+    color: white;
+    font-weight: 
+    600;
+    padding: 0 2rem;
+}
+.try-it span{
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+
+/* form */
+form{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 7px hsla(249, 10%, 26%, 0.412);
+    position: relative;
+}
+input{
+    width: 93%;
+    font-weight: 600;
+    color: hsl(249, 10%, 26%);
+    margin-top: 1rem;
+    padding: .8rem 0 .8rem 2rem;
+    border-radius: 5px;
+    border: 1px solid hsla(246, 25%, 77%, 0.327);
+}
+
+
+/* error section */
+.error{
+    position: absolute;
+    display: none;
+    right: 10%;
+}
+.text-error{
+    text-align: right;
+    padding: .5rem;
+    font-size: .8rem;
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+}
+.error1{
+    top: 3.6rem;
+}
+.error2 {
+    top: 9.6rem;
+}
+.error3 {
+    top: 15.4rem;
+}
+.error4 {
+    top: 21.3rem;
+}
+
+button{
+    width: 100%;
+    padding: .9rem 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -0px -3px hsla(249, 10%, 26%, 0.196) inset;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    color: white;
+}
+.terms{
+    padding: 1.5rem 1.5rem 0;
+    font-size: .7rem;
+    font-weight: 500;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+.terms a{
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* footer section */
+footer{
+    text-align: center;
+    font-weight: 600;
+    padding: 2rem;
+}
+.attribution{
+    color: white;
+}
+.attribution a{
+    text-decoration: none;
+    color: hsl(249, 10%, 26%);
+}
